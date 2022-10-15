@@ -3,8 +3,8 @@
 #include <time.h>
 
 /**
-  main - print is grater than 5,is 0 or is less than 6 not 0
-Return: 0
+* main - print is grater than 5,is 0 or is less than 6 not 0
+* Return: 0
 */
 
 int main(void)
