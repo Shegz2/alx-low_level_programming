@@ -15,13 +15,13 @@ int main(void)
 	{
 	printf("%iis positive\n", n);
 	}
+	else if (n < 0)
+	{
+	printf("%iis negative\n", n);
+	}
 	else if (n == 0)
 	{
-	printf("%iis zero\n", n);
-	}
-	else
-	{
-	printf("%i is negative\n", n);
+	printf("%i is zero\n", n);
 	}
 	return (0);
 }
