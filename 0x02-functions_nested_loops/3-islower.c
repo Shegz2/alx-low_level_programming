@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int _islower - check character
+ * _islower - check character
  * @c: The character to print
  * Return: 1 if the character is lower and 0 if not .
  */
