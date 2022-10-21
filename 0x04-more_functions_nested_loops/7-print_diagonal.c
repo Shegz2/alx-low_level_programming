@@ -4,21 +4,16 @@
  * @n: the number of \ to be printed
  * Return: Always 0
  */
-print_diagonal(int n)
+void print_diagonal(int n)
 {
-	int x, y;
+	int x;
 
 	if (n <= 0)
 		_putchar('\n');
-	for (x = 0; x < n; x++)
+	for (x = 0; x <= n; x++)
 	{
-		for (y = 0; y < x; y++)
-		{
-			_putchar(' ');
-		}
 		_putchar('\\');
-		_putchar('\n');
-
 	}
+	_putchar('\n');
 }
 
