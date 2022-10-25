@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * print_array - finction
- * @*a: inpit
+ * @a: inpit
  * @n: inpit
  * Return: Allwaus 0
  */
