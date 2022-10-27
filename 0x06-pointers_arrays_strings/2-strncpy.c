@@ -1,0 +1,25 @@
+#include "main.h"
+/**
+ * _strncpy - Write a function that copies a string.
+ * @dest: inpiy
+ * @src: input
+ * @n: input
+ * Return: dest
+ */
+char *_strncpy(char *dest, char *src, int n)
+{
+	int j;
+
+	j = 0;
+	while (j < n && dest[j] != '\0')
+	{
+		dest[j] = src[j];
+		j++;
+	}
+	while (j < n)
+	{
+		dest[j] = '\0';
+	}
+	return (dest);
+
+}
